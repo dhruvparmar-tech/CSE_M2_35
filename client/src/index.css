@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--color-slate-950);
+  --color-foreground: var(--color-slate-50);
+}
+
+@layer base {
+  :root {
+    --background: #020617; /* slate-950 */
+    --foreground: #f8fafc; /* slate-50 */
+    
+    --card: rgba(15, 23, 42, 0.8); /* slate-900/80 */
+    --card-foreground: #f8fafc;
+    
+    --primary: #6366f1; /* indigo-500 */
+    --primary-foreground: #ffffff;
+    
+    --secondary: #334155; /* slate-700 */
+    --secondary-foreground: #f8fafc;
+    
+    --muted: #1e293b; /* slate-800 */
+    --muted-foreground: #94a3b8; /* slate-400 */
+    
+    --accent: #8b5cf6; /* violet-500 */
+    --accent-foreground: #ffffff;
+    
+    --success: #10b981; /* emerald-500 */
+    --warning: #f59e0b; /* amber-500 */
+    --error: #f43f5e; /* rose-500 */
+    --info: #3b82f6; /* blue-500 */
+    
+    --border: #1e293b; /* slate-800 */
+    --ring: rgba(99, 102, 241, 0.5); /* indigo-500/50 */
+    
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+.glass {
+  background: var(--card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(30, 41, 59, 0.5);
+}

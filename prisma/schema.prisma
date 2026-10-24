@@ -1,0 +1,152 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String    @id @default(uuid())
+  email          String    @unique
+  passwordHash   String
+  name           String
+  photo          String?
+  targetRole     String?
+  experienceLevel String?
+  technologies   String[]
+  github         String?
+  linkedin       String?
+  portfolio      String?
+  theme          String    @default("dark")
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  interviews     Interview[]
+  practiceQuestions PracticeQuestion[]
+
+  @@map("users")
+}
+
+model Interview {
+  id              String   @id @default(uuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role            String
+  experienceLevel String
+  difficulty      String
+  interviewType   String
+  technologies    String[]
+  topics          String[]
+  duration        Int      @default(45)
+  questionCount   Int      @default(10)
+  status          String   @default("pending")
+  currentQuestion Int      @default(0)
+  overallScore    Float?
+  startedAt       DateTime?
+  completedAt     DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  questions       InterviewQuestion[]
+  result          InterviewResult?
+
+  @@map("interviews")
+}
+
+model InterviewQuestion {
+  id              String   @id @default(uuid())
+  interviewId     String
+  interview       Interview @relation(fields: [interviewId], references: [id], onDelete: Cascade)
+  questionNumber  Int
+  question        String
+  type            String
+  topic           String
+  difficulty      String
+  expectedSkills  String[]
+  codeTemplate    String?
+  codeLanguage    String?
+  testCases       Json?
+  constraints     String?
+  examples        String?
+  createdAt       DateTime @default(now())
+
+  answers         CandidateAnswer[]
+
+  @@map("interview_questions")
+}
+
+model CandidateAnswer {
+  id              String   @id @default(uuid())
+  questionId      String
+  question        InterviewQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  answer          String
+  code            String?
+  language        String?
+  isFollowUp      Boolean  @default(false)
+  followUpTo      String?
+  score           Float?
+  technicalAccuracy Float?
+  depth           Float?
+  problemSolving  Float?
+  communication   Float?
+  feedback        String?
+  strengths       String[]
+  weaknesses      String[]
+  createdAt       DateTime @default(now())
+
+  @@map("candidate_answers")
+}
+
+model InterviewResult {
+  id                  String   @id @default(uuid())
+  interviewId         String   @unique
+  interview           Interview @relation(fields: [interviewId], references: [id], onDelete: Cascade)
+  overallScore        Float
+  technicalKnowledge  Float
+  problemSolving      Float
+  coding              Float
+  communication       Float
+  accuracy            Float
+  strengths           String[]
+  weaknesses          String[]
+  recommendations     String[]
+  summary             String
+  createdAt           DateTime @default(now())
+
+  skillScores         SkillScore[]
+
+  @@map("interview_results")
+}
+
+model SkillScore {
+  id          String   @id @default(uuid())
+  resultId    String
+  result      InterviewResult @relation(fields: [resultId], references: [id], onDelete: Cascade)
+  skill       String
+  score       Float
+  maxScore    Float    @default(100)
+  feedback    String?
+  createdAt   DateTime @default(now())
+
+  @@map("skill_scores")
+}
+
+model PracticeQuestion {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category    String
+  difficulty  String
+  question    String
+  answer      String?
+  explanation String?
+  hints       String[]
+  tags        String[]
+  completed   Boolean  @default(false)
+  score       Float?
+  createdAt   DateTime @default(now())
+
+  @@map("practice_questions")
+}

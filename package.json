@@ -1,0 +1,24 @@
+{
+  "name": "ai-interview-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered technical interview platform",
+  "scripts": {
+    "dev": "concurrently -n client,server -c cyan,green \"npm run client\" \"npm run server\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "db:generate": "cd server && npx prisma generate --schema=../prisma/schema.prisma",
+    "db:migrate": "cd server && npx prisma migrate dev --schema=../prisma/schema.prisma",
+    "db:push": "cd server && npx prisma db push --schema=../prisma/schema.prisma",
+    "db:studio": "cd server && npx prisma studio --schema=../prisma/schema.prisma",
+    "test": "cd server && npm test",
+    "lint": "cd client && npm run lint && cd ../server && npm run lint"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

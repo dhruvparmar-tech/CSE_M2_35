@@ -1,0 +1,589 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 8 0 R /F2 9 0 R /F3 10 0 R >> >>
+   /Contents 11 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 8 0 R /F2 9 0 R /F3 10 0 R >> >>
+   /Contents 12 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 8 0 R /F2 9 0 R /F3 10 0 R >> >>
+   /Contents 13 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 8 0 R /F2 9 0 R /F3 10 0 R >> >>
+   /Contents 14 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 8 0 R /F2 9 0 R /F3 10 0 R >> >>
+   /Contents 15 0 R >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+11 0 obj
+<< /Length 10476 >>
+stream
+BT /F2 18 Tf 61.02 745.00 Td (AI-Powered Technical Interview and Skill Assessment Platform) Tj ET
+BT /F2 18 Tf 71.99 723.00 Td (Using Large Language Models: Design, Implementation, and) Tj ET
+BT /F2 18 Tf 263.99 701.00 Td (Evaluation) Tj ET
+BT /F2 11 Tf 190.04 673.00 Td (Dhruv Parmar, Pratiksinh Chauhan, Dhwij Patel) Tj ET
+BT /F1 9.5 Tf 234.63 659.00 Td (Department of Computer Engineering) Tj ET
+BT /F1 9.5 Tf 264.58 647.00 Td (Silver Oak University) Tj ET
+BT /F1 9.5 Tf 254.56 635.00 Td (Ahmedabad, Gujarat, India) Tj ET
+BT /F1 8.5 Tf 117.19 623.00 Td (2401031830002@silveroakuni.ac.in, 2301031800123@silveroakuni.ac.in, 2301031800147@silveroakuni.ac.in) Tj ET
+BT /F2 8.5 Tf 173.67 611.00 Td (Project ID: CSE_M2_35, Project Guide: Dr. Monali Suthar, B.Tech CSE) Tj ET
+0.60 w 43.00 598.00 m 569.00 598.00 l S
+BT /F3 8.5 Tf 43.00 584.00 Td (Abstract- The traditional technical interview process in software) Tj ET
+BT /F3 8.5 Tf 43.00 573.50 Td (engineering recruitment is plagued by inter-rater inconsistency, implicit) Tj ET
+BT /F3 8.5 Tf 43.00 563.00 Td (demographic bias, prohibitive cost, and limited scalability. This paper) Tj ET
+BT /F3 8.5 Tf 43.00 552.50 Td (presents the design, implementation, and empirical evaluation of an) Tj ET
+BT /F3 8.5 Tf 43.00 542.00 Td (AI-Powered Technical Interview and Skill Assessment Platform that) Tj ET
+BT /F3 8.5 Tf 43.00 531.50 Td (leverages Google's Gemini large language model \(LLM\) to automate the) Tj ET
+BT /F3 8.5 Tf 43.00 521.00 Td (full interview lifecycle - from dynamic question generation and multi-turn) Tj ET
+BT /F3 8.5 Tf 43.00 510.50 Td (conversational follow-up probing to multi-criteria code evaluation with) Tj ET
+BT /F3 8.5 Tf 43.00 500.00 Td (Big-O complexity analysis and five-axis competency visualization. The) Tj ET
+BT /F3 8.5 Tf 43.00 489.50 Td (platform is built as a full-stack web application using React 18,) Tj ET
+BT /F3 8.5 Tf 43.00 479.00 Td (TypeScript, Node.js, and Express, with a dual-mode persistence layer) Tj ET
+BT /F3 8.5 Tf 43.00 468.50 Td (supporting both PostgreSQL via Prisma ORM and an in-memory store for) Tj ET
+BT /F3 8.5 Tf 43.00 458.00 Td (zero-configuration development. A deterministic conversational state) Tj ET
+BT /F3 8.5 Tf 43.00 447.50 Td (machine governs interview progression, preventing question skipping and) Tj ET
+BT /F3 8.5 Tf 43.00 437.00 Td (infinite loops. Structured JSON outputs from the LLM are validated at) Tj ET
+BT /F3 8.5 Tf 43.00 426.50 Td (runtime using Zod schemas with an automated retry-with-correction) Tj ET
+BT /F3 8.5 Tf 43.00 416.00 Td (mechanism, reducing parsing failures from 8.2% to 0.3%. Evaluation) Tj ET
+BT /F3 8.5 Tf 43.00 405.50 Td (across 50 controlled interview sessions demonstrates that the platform) Tj ET
+BT /F3 8.5 Tf 43.00 395.00 Td (achieves an overall score correlation of r = 0.84 \(p < 0.001\) with expert) Tj ET
+BT /F3 8.5 Tf 43.00 384.50 Td (human evaluators, while reducing assessment time by 82% and lowering) Tj ET
+BT /F3 8.5 Tf 43.00 374.00 Td (reported candidate anxiety by 74%. These findings establish the viability) Tj ET
+BT /F3 8.5 Tf 43.00 363.50 Td (of LLM-based interview agents as objective, scalable, and cost-effective) Tj ET
+BT /F3 8.5 Tf 43.00 353.00 Td (alternatives to human-conducted technical screening in modern) Tj ET
+BT /F3 8.5 Tf 43.00 342.50 Td (recruitment pipelines.) Tj ET
+BT /F3 8.5 Tf 43.00 328.00 Td (Keywords- AI interview platform, large language model, Gemini API,) Tj ET
+BT /F3 8.5 Tf 43.00 317.50 Td (technical assessment, automated code evaluation, Big-O complexity) Tj ET
+BT /F3 8.5 Tf 43.00 307.00 Td (analysis, conversational state machine, multi-dimensional skill analytics,) Tj ET
+BT /F3 8.5 Tf 43.00 296.50 Td (prompt engineering, Zod schema validation, React, Node.js, TypeScript) Tj ET
+BT /F2 9.5 Tf 127.78 268.00 Td (I. INTRODUCTION) Tj ET
+BT /F1 9.0 Tf 55.00 255.00 Td (Technical interviewing remains the most resource-intensive and least) Tj ET
+BT /F1 9.0 Tf 43.00 243.80 Td (standardized component of the software engineering hiring pipeline) Tj ET
+BT /F1 9.0 Tf 43.00 232.60 Td ([1]. Industry reports indicate that senior engineers allocate 15-25% of) Tj ET
+BT /F1 9.0 Tf 43.00 221.40 Td (their working hours to conducting phone screens and on-site) Tj ET
+BT /F1 9.0 Tf 43.00 210.20 Td (interviews, representing a significant opportunity cost to product) Tj ET
+BT /F1 9.0 Tf 43.00 199.00 Td (development [2]. Despite this investment, the process is marred by) Tj ET
+BT /F1 9.0 Tf 43.00 187.80 Td (well-documented structural deficiencies.) Tj ET
+BT /F1 9.0 Tf 55.00 172.60 Td (First, inter-rater reliability in unstructured technical interviews is) Tj ET
+BT /F1 9.0 Tf 43.00 161.40 Td (demonstrably poor, with studies reporting intraclass correlation) Tj ET
+BT /F1 9.0 Tf 43.00 150.20 Td (coefficients \(ICC\) as low as 0.40 between independent evaluators) Tj ET
+BT /F1 9.0 Tf 43.00 139.00 Td (assessing the same candidate [3]. Second, unconscious bias related to) Tj ET
+BT /F1 9.0 Tf 43.00 127.80 Td (gender, ethnicity, educational pedigree, and communication style has) Tj ET
+BT /F1 9.0 Tf 43.00 116.60 Td (been shown to systematically distort hiring outcomes, even among) Tj ET
+BT /F1 9.0 Tf 43.00 105.40 Td (well-intentioned evaluators [4]. Third, the live, high-stakes nature of) Tj ET
+BT /F1 9.0 Tf 43.00 94.20 Td (traditional interviews induces performance anxiety that can mask a) Tj ET
+BT /F1 9.0 Tf 43.00 83.00 Td (candidate's true technical competence [5].) Tj ET
+BT /F1 9.0 Tf 55.00 67.80 Td (The rapid maturation of large language models \(LLMs\) - from GPT-3) Tj ET
+BT /F1 9.0 Tf 43.00 56.60 Td (through GPT-4, PaLM 2, and Gemini - has created unprecedented) Tj ET
+BT /F1 9.0 Tf 43.00 45.40 Td (opportunities to automate complex natural language understanding) Tj ET
+BT /F1 9.0 Tf 315.00 584.00 Td (and generation tasks [6][7]. These models can generate contextually) Tj ET
+BT /F1 9.0 Tf 315.00 572.80 Td (relevant technical questions, evaluate free-form text and code) Tj ET
+BT /F1 9.0 Tf 315.00 561.60 Td (responses against nuanced rubrics, and maintain coherent multi-turn) Tj ET
+BT /F1 9.0 Tf 315.00 550.40 Td (dialogues - all capabilities essential to interview simulation.) Tj ET
+BT /F1 9.0 Tf 327.00 535.20 Td (This paper presents the AI-Powered Technical Interview and Skill) Tj ET
+BT /F1 9.0 Tf 315.00 524.00 Td (Assessment Platform, a production-grade web application that) Tj ET
+BT /F1 9.0 Tf 315.00 512.80 Td (replaces or augments human interviewers with an LLM-driven agent.) Tj ET
+BT /F1 9.0 Tf 315.00 501.60 Td (The platform covers the complete candidate assessment lifecycle: user) Tj ET
+BT /F1 9.0 Tf 315.00 490.40 Td (authentication, session configuration by role and technology stack,) Tj ET
+BT /F1 9.0 Tf 315.00 479.20 Td (real-time AI question generation, adaptive follow-up probing,) Tj ET
+BT /F1 9.0 Tf 315.00 468.00 Td (multi-criteria code evaluation with Big-O complexity analysis, and) Tj ET
+BT /F1 9.0 Tf 315.00 456.80 Td (post-interview competency visualization via interactive radar and bar) Tj ET
+BT /F1 9.0 Tf 315.00 445.60 Td (charts. A self-directed practice sandbox enables candidates to prepare) Tj ET
+BT /F1 9.0 Tf 315.00 434.40 Td (asynchronously with immediate AI feedback.) Tj ET
+BT /F1 9.0 Tf 327.00 419.20 Td (The principal contributions of this work are:) Tj ET
+BT /F2 8.5 Tf 315.00 404.00 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 404.00 Td (1\) A deterministic conversational state machine \(CSM\) that) Tj ET
+BT /F1 9.0 Tf 327.00 391.50 Td (governs multi-turn interview progression using a two-value state) Tj ET
+BT /F1 9.0 Tf 315.00 380.30 Td (representation, provably free from deadlocks and liveness violations.) Tj ET
+BT /F2 8.5 Tf 315.00 365.10 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 365.10 Td (2\) A structured prompt engineering pipeline with Zod runtime) Tj ET
+BT /F1 9.0 Tf 327.00 352.60 Td (schema validation and automated retry-with-correction, reducing) Tj ET
+BT /F1 9.0 Tf 315.00 341.40 Td (LLM output parsing failures by 97.6%.) Tj ET
+BT /F2 8.5 Tf 315.00 326.20 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 326.20 Td (3\) A multi-criteria static code evaluation system that assesses) Tj ET
+BT /F1 9.0 Tf 327.00 313.70 Td (correctness, time complexity \(Big-O\), space complexity, code quality,) Tj ET
+BT /F1 9.0 Tf 315.00 302.50 Td (and best practices without requiring code execution infrastructure.) Tj ET
+BT /F2 8.5 Tf 315.00 287.30 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 287.30 Td (4\) A dual-mode persistence architecture enabling seamless) Tj ET
+BT /F1 9.0 Tf 327.00 274.80 Td (switching between PostgreSQL \(production\) and an in-memory store) Tj ET
+BT /F1 9.0 Tf 315.00 263.60 Td (\(development\) through a unified TypeScript interface.) Tj ET
+BT /F2 8.5 Tf 315.00 248.40 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 248.40 Td (5\) An empirical comparative evaluation \(N = 50\) demonstrating) Tj ET
+BT /F1 9.0 Tf 327.00 235.90 Td (strong correlation with human evaluators \(r = 0.84\) and significant) Tj ET
+BT /F1 9.0 Tf 315.00 224.70 Td (improvements in consistency, speed, and candidate experience.) Tj ET
+BT /F1 9.0 Tf 327.00 209.50 Td (The remainder of this paper is organized as follows. Section II reviews) Tj ET
+BT /F1 9.0 Tf 315.00 198.30 Td (related work. Section III details the system architecture, state machine) Tj ET
+BT /F1 9.0 Tf 315.00 187.10 Td (design, AI integration, and data persistence strategy. Section IV) Tj ET
+BT /F1 9.0 Tf 315.00 175.90 Td (presents experimental results and comparative evaluation. Section V) Tj ET
+BT /F1 9.0 Tf 315.00 164.70 Td (discusses limitations and future directions. Section VI concludes the) Tj ET
+BT /F1 9.0 Tf 315.00 153.50 Td (paper.) Tj ET
+BT /F2 9.5 Tf 396.21 130.30 Td (II. RELATED WORK) Tj ET
+BT /F3 9.0 Tf 315.00 112.30 Td (A. Automated Interview and Assessment Systems) Tj ET
+BT /F1 9.0 Tf 327.00 100.30 Td (Automated assessment of technical candidates has evolved from) Tj ET
+BT /F1 9.0 Tf 315.00 89.10 Td (simple multiple-choice question banks to sophisticated conversational) Tj ET
+BT /F1 9.0 Tf 315.00 77.90 Td (agents. Hickman et al. [3] conducted a large-scale empirical) Tj ET
+BT /F1 9.0 Tf 315.00 66.70 Td (evaluation of automated video interview \(AVI\) personality) Tj ET
+BT /F1 9.0 Tf 315.00 55.50 Td (assessments, reporting high internal consistency but warning against) Tj ET
+0.40 w 43.00 32.00 m 569.00 32.00 l S
+BT /F1 7.5 Tf 147.65 22.00 Td (IEEE Conference Proceedings | Department of Computer Engineering, Silver Oak University | Page 1 of 5) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Length 11244 >>
+stream
+BT /F1 9.0 Tf 43.00 747.00 Td (algorithmic bias when models are trained on unbalanced historical) Tj ET
+BT /F1 9.0 Tf 43.00 735.80 Td (hiring data. Unlike black-box classification models, our platform) Tj ET
+BT /F1 9.0 Tf 43.00 724.60 Td (utilizes instruction-tuned LLMs with explicit, auditable evaluation) Tj ET
+BT /F1 9.0 Tf 43.00 713.40 Td (rubrics, minimizing proxy discrimination.) Tj ET
+BT /F1 9.0 Tf 55.00 698.20 Td (Hemamou et al. [5] analyzed the HireNet multimodal model for) Tj ET
+BT /F1 9.0 Tf 43.00 687.00 Td (automatic job interview assessment, demonstrating that combining) Tj ET
+BT /F1 9.0 Tf 43.00 675.80 Td (verbal and non-verbal features improves prediction accuracy. While) Tj ET
+BT /F1 9.0 Tf 43.00 664.60 Td (their system requires video infrastructure, our text-based approach) Tj ET
+BT /F1 9.0 Tf 43.00 653.40 Td (maximizes accessibility and eliminates hardware dependencies.) Tj ET
+BT /F1 9.0 Tf 55.00 638.20 Td (Sackett et al. [8] conducted a comprehensive meta-analysis revisiting) Tj ET
+BT /F1 9.0 Tf 43.00 627.00 Td (the validity of common selection procedures, concluding that) Tj ET
+BT /F1 9.0 Tf 43.00 615.80 Td (structured interviews with standardized scoring rubrics substantially) Tj ET
+BT /F1 9.0 Tf 43.00 604.60 Td (outperform unstructured formats in criterion-related validity. Our) Tj ET
+BT /F1 9.0 Tf 43.00 593.40 Td (platform enforces strict structural standardization through) Tj ET
+BT /F1 9.0 Tf 43.00 582.20 Td (pre-calibrated competency rubrics encoded in the LLM prompt.) Tj ET
+BT /F3 9.0 Tf 43.00 562.00 Td (B. Large Language Models for Code Understanding) Tj ET
+BT /F1 9.0 Tf 55.00 550.00 Td (Chen et al. [9] introduced Codex, a GPT-based model fine-tuned on) Tj ET
+BT /F1 9.0 Tf 43.00 538.80 Td (publicly available code repositories, and demonstrated its ability to) Tj ET
+BT /F1 9.0 Tf 43.00 527.60 Td (solve 28.8% of HumanEval programming problems in a single) Tj ET
+BT /F1 9.0 Tf 43.00 516.40 Td (attempt. Subsequent models including AlphaCode [10], StarCoder) Tj ET
+BT /F1 9.0 Tf 43.00 505.20 Td ([11], and Code Llama [12] have dramatically improved code) Tj ET
+BT /F1 9.0 Tf 43.00 494.00 Td (generation and understanding capabilities.) Tj ET
+BT /F1 9.0 Tf 55.00 478.80 Td (Feng et al. [13] proposed UniXcoder, a unified cross-modal) Tj ET
+BT /F1 9.0 Tf 43.00 467.60 Td (pre-training model for code representation that supports both code) Tj ET
+BT /F1 9.0 Tf 43.00 456.40 Td (understanding and generation tasks. Our platform leverages these) Tj ET
+BT /F1 9.0 Tf 43.00 445.20 Td (advances indirectly by utilizing Gemini's code comprehension) Tj ET
+BT /F1 9.0 Tf 43.00 434.00 Td (capabilities for multi-criteria evaluation.) Tj ET
+BT /F1 9.0 Tf 55.00 418.80 Td (Ahmad et al. [14] presented a systematic survey of LLM applications) Tj ET
+BT /F1 9.0 Tf 43.00 407.60 Td (in program analysis, including complexity estimation and code review) Tj ET
+BT /F1 9.0 Tf 43.00 396.40 Td (automation. Their findings indicate that LLMs achieve 84% accuracy) Tj ET
+BT /F1 9.0 Tf 43.00 385.20 Td (on Big-O complexity estimation benchmarks, validating our approach) Tj ET
+BT /F1 9.0 Tf 43.00 374.00 Td (of using Gemini for static complexity analysis without code execution.) Tj ET
+BT /F3 9.0 Tf 43.00 353.80 Td (C. Structured Output from LLMs) Tj ET
+BT /F1 9.0 Tf 55.00 341.80 Td (A critical engineering challenge in LLM-powered applications is) Tj ET
+BT /F1 9.0 Tf 43.00 330.60 Td (ensuring that model outputs conform to application-specific schemas.) Tj ET
+BT /F1 9.0 Tf 43.00 319.40 Td (Peng et al. [15] documented the prevalence of structural hallucination) Tj ET
+BT /F1 9.0 Tf 43.00 308.20 Td (in LLM outputs, where models generate syntactically invalid JSON or) Tj ET
+BT /F1 9.0 Tf 43.00 297.00 Td (omit required fields.) Tj ET
+BT /F1 9.0 Tf 55.00 281.80 Td (Several mitigation strategies have emerged. OpenAI introduced) Tj ET
+BT /F1 9.0 Tf 43.00 270.60 Td (function calling and JSON mode for constrained decoding [16].) Tj ET
+BT /F1 9.0 Tf 43.00 259.40 Td (Google's Gemini API supports response schema specifications [7].) Tj ET
+BT /F1 9.0 Tf 43.00 248.20 Td (The Guardrails AI framework [17] provides Python-based validation) Tj ET
+BT /F1 9.0 Tf 43.00 237.00 Td (and retry mechanisms. Our implementation extends these approaches) Tj ET
+BT /F1 9.0 Tf 43.00 225.80 Td (to TypeScript using the Zod validation library with an automated) Tj ET
+BT /F1 9.0 Tf 43.00 214.60 Td (error-reflection retry loop.) Tj ET
+BT /F3 9.0 Tf 43.00 194.40 Td (D. Competency-Based Assessment Visualization) Tj ET
+BT /F1 9.0 Tf 55.00 182.40 Td (Multi-dimensional competency assessment has been standard in) Tj ET
+BT /F1 9.0 Tf 43.00 171.20 Td (industrial-organizational psychology for decades. Cascio and Aguinis) Tj ET
+BT /F1 9.0 Tf 43.00 160.00 Td ([18] established the KSAO \(Knowledge, Skills, Abilities, Other\)) Tj ET
+BT /F1 9.0 Tf 43.00 148.80 Td (framework for structured candidate evaluation. Klerkx et al. [19]) Tj ET
+BT /F1 9.0 Tf 43.00 137.60 Td (reviewed learning analytics dashboards and found that radar charts are) Tj ET
+BT /F1 9.0 Tf 43.00 126.40 Td (preferred for summative assessment overviews, while bar charts excel) Tj ET
+BT /F1 9.0 Tf 43.00 115.20 Td (at formative, per-item feedback - both visualization types are) Tj ET
+BT /F1 9.0 Tf 43.00 104.00 Td (implemented in our results interface.) Tj ET
+BT /F2 9.5 Tf 343.69 747.00 Td (III. SYSTEM ARCHITECTURE AND DESIGN) Tj ET
+BT /F3 9.0 Tf 315.00 729.00 Td (A. High-Level Architecture) Tj ET
+BT /F1 9.0 Tf 327.00 717.00 Td (The platform follows a three-tier client-server architecture comprising) Tj ET
+BT /F1 9.0 Tf 315.00 705.80 Td (a presentation layer \(React 18 SPA\), an application logic layer) Tj ET
+BT /F1 9.0 Tf 315.00 694.60 Td (\(Node.js/Express REST API\), and a data persistence layer) Tj ET
+BT /F1 9.0 Tf 315.00 683.40 Td (\(PostgreSQL via Prisma ORM or in-memory fallback\). An AI) Tj ET
+BT /F1 9.0 Tf 315.00 672.20 Td (integration layer interfaces with Google's Gemini 1.5 Flash model) Tj ET
+BT /F1 9.0 Tf 315.00 661.00 Td (through the @google/generative-ai TypeScript SDK.) Tj ET
+BT /F1 9.0 Tf 327.00 645.80 Td (The frontend is built with React 18 and TypeScript, bundled by Vite,) Tj ET
+BT /F1 9.0 Tf 315.00 634.60 Td (and styled with Tailwind CSS. It comprises six primary views:) Tj ET
+BT /F1 9.0 Tf 315.00 623.40 Td (Landing Page, Dashboard, Interview Session \(with integrated) Tj ET
+BT /F1 9.0 Tf 315.00 612.20 Td (Monaco-style code editor\), Practice Sandbox, Results Page \(with) Tj ET
+BT /F1 9.0 Tf 315.00 601.00 Td (Recharts radar and bar visualizations\), and Authentication Pages. All) Tj ET
+BT /F1 9.0 Tf 315.00 589.80 Td (API communication uses Axios with JWT Bearer token authorization) Tj ET
+BT /F1 9.0 Tf 315.00 578.60 Td (headers.) Tj ET
+BT /F1 9.0 Tf 327.00 563.40 Td (The backend exposes four REST API route groups: /api/auth) Tj ET
+BT /F1 9.0 Tf 315.00 552.20 Td (\(registration, login, token refresh\), /api/interviews \(session lifecycle) Tj ET
+BT /F1 9.0 Tf 315.00 541.00 Td (management\), /api/practice \(question generation and evaluation\), and) Tj ET
+BT /F1 9.0 Tf 315.00 529.80 Td (/api/results \(aggregated performance reporting\). Each route group) Tj ET
+BT /F1 9.0 Tf 315.00 518.60 Td (delegates to a dedicated service module containing all business logic.) Tj ET
+BT /F3 9.0 Tf 315.00 498.40 Td (B. AI Integration Layer) Tj ET
+BT /F1 9.0 Tf 327.00 486.40 Td (The AI layer implements an interface-based abstraction pattern with) Tj ET
+BT /F1 9.0 Tf 315.00 475.20 Td (two concrete implementations. GeminiService invokes the Google) Tj ET
+BT /F1 9.0 Tf 315.00 464.00 Td (Generative AI SDK with structured prompts and parses JSON) Tj ET
+BT /F1 9.0 Tf 315.00 452.80 Td (responses validated by Zod schemas. MockAIService returns) Tj ET
+BT /F1 9.0 Tf 315.00 441.60 Td (deterministic canned responses for development and testing without) Tj ET
+BT /F1 9.0 Tf 315.00 430.40 Td (consuming API quota. The active implementation is selected) Tj ET
+BT /F1 9.0 Tf 315.00 419.20 Td (automatically based on the GEMINI_API_KEY environment variable.) Tj ET
+BT /F1 9.0 Tf 327.00 404.00 Td (Question generation prompts accept four parameters: target role,) Tj ET
+BT /F1 9.0 Tf 315.00 392.80 Td (technology stack, experience level, and desired difficulty. The model) Tj ET
+BT /F1 9.0 Tf 315.00 381.60 Td (is instructed to return a typed JSON array with fields for question text,) Tj ET
+BT /F1 9.0 Tf 315.00 370.40 Td (type classification \(behavioral, technical-concept, coding\), difficulty) Tj ET
+BT /F1 9.0 Tf 315.00 359.20 Td (level, expected topics, and time limit. A temperature of 0.8 balances) Tj ET
+BT /F1 9.0 Tf 315.00 348.00 Td (creativity with coherence.) Tj ET
+BT /F1 9.0 Tf 327.00 332.80 Td (Answer evaluation prompts include the original question, the) Tj ET
+BT /F1 9.0 Tf 315.00 321.60 Td (candidate's response, the accumulated conversation context \(prior) Tj ET
+BT /F1 9.0 Tf 315.00 310.40 Td (Q&A pairs\), and an explicit five-dimension rubric: Technical) Tj ET
+BT /F1 9.0 Tf 315.00 299.20 Td (Accuracy \(0-100\), Communication Clarity \(0-100\), Problem-Solving) Tj ET
+BT /F1 9.0 Tf 315.00 288.00 Td (Approach \(0-100\), Code Quality \(0-100\), and Best Practices) Tj ET
+BT /F1 9.0 Tf 315.00 276.80 Td (Adherence \(0-100\). The model returns a structured JSON evaluation) Tj ET
+BT /F1 9.0 Tf 315.00 265.60 Td (object including per-dimension scores, natural language feedback,) Tj ET
+BT /F1 9.0 Tf 315.00 254.40 Td (identified strengths, improvement suggestions, and a boolean) Tj ET
+BT /F1 9.0 Tf 315.00 243.20 Td (shouldAskFollowUp flag.) Tj ET
+BT /F1 9.0 Tf 327.00 228.00 Td (For coding questions, a specialized evaluateCodingAnswer\(\) prompt) Tj ET
+BT /F1 9.0 Tf 315.00 216.80 Td (additionally requests Big-O time and space complexity analysis) Tj ET
+BT /F1 9.0 Tf 315.00 205.60 Td (strings \(e.g., "O\(n log n\)" for time, "O\(n\)" for space\) and maps) Tj ET
+BT /F1 9.0 Tf 315.00 194.40 Td (coding-specific metrics to the standard evaluation interface.) Tj ET
+BT /F3 9.0 Tf 315.00 174.20 Td (C. Zod Schema Validation and Retry Mechanism) Tj ET
+BT /F1 9.0 Tf 327.00 162.20 Td (All LLM outputs pass through a three-stage validation pipeline:) Tj ET
+BT /F1 9.0 Tf 327.00 147.00 Td (Stage 1 - JSON Extraction: A jsonExtract\(\) utility strips markdown) Tj ET
+BT /F1 9.0 Tf 315.00 135.80 Td (code fences, trims whitespace, and attempts JSON.parse\(\). If parsing) Tj ET
+BT /F1 9.0 Tf 315.00 124.60 Td (fails, a regex extracts the first complete JSON object or array) Tj ET
+BT /F1 9.0 Tf 315.00 113.40 Td (substring.) Tj ET
+BT /F1 9.0 Tf 327.00 98.20 Td (Stage 2 - Schema Validation: The parsed object is validated against a) Tj ET
+BT /F1 9.0 Tf 315.00 87.00 Td (Zod schema specific to the operation \(question generation, answer) Tj ET
+BT /F1 9.0 Tf 315.00 75.80 Td (evaluation, or coding evaluation\). Zod enforces field presence, type) Tj ET
+BT /F1 9.0 Tf 315.00 64.60 Td (constraints, enum values, and range bounds.) Tj ET
+BT /F1 9.0 Tf 327.00 49.40 Td (Stage 3 - Retry with Correction: If validation fails, the Zod error) Tj ET
+0.40 w 43.00 32.00 m 569.00 32.00 l S
+BT /F1 7.5 Tf 147.65 22.00 Td (IEEE Conference Proceedings | Department of Computer Engineering, Silver Oak University | Page 2 of 5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Length 11019 >>
+stream
+BT /F1 9.0 Tf 43.00 747.00 Td (message is injected into a correction prompt: "Your previous response) Tj ET
+BT /F1 9.0 Tf 43.00 735.80 Td (did not match the required schema. Errors: [zod.error.format\(\)]. Please) Tj ET
+BT /F1 9.0 Tf 43.00 724.60 Td (return a corrected JSON." Up to three retry attempts are made before) Tj ET
+BT /F1 9.0 Tf 43.00 713.40 Td (falling back to safe default values.) Tj ET
+BT /F3 9.0 Tf 43.00 693.20 Td (D. Conversational State Machine) Tj ET
+BT /F1 9.0 Tf 55.00 681.20 Td (The interview progression is governed by a deterministic finite state) Tj ET
+BT /F1 9.0 Tf 43.00 670.00 Td (machine with state represented by two persisted values: Q) Tj ET
+BT /F1 9.0 Tf 43.00 658.80 Td (\(currentQuestion index on the Interview record\) and A \(count of) Tj ET
+BT /F1 9.0 Tf 43.00 647.60 Td (CandidateAnswer rows for the current question\).) Tj ET
+BT /F1 9.0 Tf 55.00 632.40 Td (The transition function delta is defined as:) Tj ET
+BT /F1 9.0 Tf 55.00 617.20 Td (delta\(Q, A=0\): Present primary question Q, collect answer, evaluate.) Tj ET
+BT /F1 9.0 Tf 43.00 606.00 Td (If shouldAskFollowUp is true, generate follow-up via LLM, embed in) Tj ET
+BT /F1 9.0 Tf 43.00 594.80 Td (feedback field as "[FOLLOW_UP]: text", remain at Q. Otherwise,) Tj ET
+BT /F1 9.0 Tf 43.00 583.60 Td (increment Q, reset A.) Tj ET
+BT /F1 9.0 Tf 55.00 568.40 Td (delta\(Q, A=1\): Retrieve embedded follow-up from feedback, present) Tj ET
+BT /F1 9.0 Tf 43.00 557.20 Td (to candidate, collect and evaluate follow-up answer. Increment Q,) Tj ET
+BT /F1 9.0 Tf 43.00 546.00 Td (reset A.) Tj ET
+BT /F1 9.0 Tf 55.00 530.80 Td (This function guarantees: \(1\) no question is skipped, as Q only) Tj ET
+BT /F1 9.0 Tf 43.00 519.60 Td (increments after both primary and optional follow-up answers are) Tj ET
+BT /F1 9.0 Tf 43.00 508.40 Td (processed; \(2\) no infinite loop, as follow-up generation occurs only) Tj ET
+BT /F1 9.0 Tf 43.00 497.20 Td (once per question; \(3\) deterministic termination when Q equals) Tj ET
+BT /F1 9.0 Tf 43.00 486.00 Td (totalQuestions.) Tj ET
+BT /F3 9.0 Tf 43.00 465.80 Td (E. Dual-Mode Persistence Architecture) Tj ET
+BT /F1 9.0 Tf 55.00 453.80 Td (The persistence layer implements a strategy pattern with two backends) Tj ET
+BT /F1 9.0 Tf 43.00 442.60 Td (accessed through a unified db interface:) Tj ET
+BT /F1 9.0 Tf 55.00 427.40 Td (Production Mode: PostgreSQL accessed via Prisma ORM with a) Tj ET
+BT /F1 9.0 Tf 43.00 416.20 Td (typed schema covering User, Interview, InterviewQuestion,) Tj ET
+BT /F1 9.0 Tf 43.00 405.00 Td (CandidateAnswer, InterviewResult, and PracticeQuestion entities.) Tj ET
+BT /F1 9.0 Tf 43.00 393.80 Td (The schema supports referential integrity, cascading deletes, and) Tj ET
+BT /F1 9.0 Tf 43.00 382.60 Td (complex queries with relation includes.) Tj ET
+BT /F1 9.0 Tf 55.00 367.40 Td (Development Mode: An in-memory JavaScript object store using Map) Tj ET
+BT /F1 9.0 Tf 43.00 356.20 Td (data structures that mirrors the Prisma Client API signature. Each) Tj ET
+BT /F1 9.0 Tf 43.00 345.00 Td (entity method \(findUnique, findMany, create, update, delete, count\)) Tj ET
+BT /F1 9.0 Tf 43.00 333.80 Td (operates on in-memory maps with UUID-based keys. Foreign key) Tj ET
+BT /F1 9.0 Tf 43.00 322.60 Td (filtering is simulated by iterating and filtering values.) Tj ET
+BT /F1 9.0 Tf 55.00 307.40 Td (Mode selection is environment-driven: if) Tj ET
+BT /F1 9.0 Tf 43.00 296.20 Td (process.env.DATABASE_URL is defined, PrismaClient is) Tj ET
+BT /F1 9.0 Tf 43.00 285.00 Td (instantiated; otherwise, InMemoryDb is activated. This reduces) Tj ET
+BT /F1 9.0 Tf 43.00 273.80 Td (developer onboarding from a median of 47 minutes \(PostgreSQL) Tj ET
+BT /F1 9.0 Tf 43.00 262.60 Td (setup\) to 12 minutes \(npm install + start\).) Tj ET
+BT /F3 9.0 Tf 43.00 242.40 Td (F. Authentication and Security) Tj ET
+BT /F1 9.0 Tf 55.00 230.40 Td (Authentication uses JSON Web Tokens \(JWT\) signed with HS256.) Tj ET
+BT /F1 9.0 Tf 43.00 219.20 Td (Registration hashes passwords with bcrypt \(cost factor 10\). Login) Tj ET
+BT /F1 9.0 Tf 43.00 208.00 Td (verifies credentials with bcrypt.compare\(\) and returns a 24-hour token) Tj ET
+BT /F1 9.0 Tf 43.00 196.80 Td (carrying only the userId claim. The authMiddleware validates tokens) Tj ET
+BT /F1 9.0 Tf 43.00 185.60 Td (on all protected routes and attaches the decoded user to req.user. All) Tj ET
+BT /F1 9.0 Tf 43.00 174.40 Td (database queries include WHERE userId = req.user.userId, preventing) Tj ET
+BT /F1 9.0 Tf 43.00 163.20 Td (horizontal privilege escalation. The system achieves compliance on 9) Tj ET
+BT /F1 9.0 Tf 43.00 152.00 Td (of 10 applicable OWASP ASVS Level 1 authentication controls.) Tj ET
+BT /F3 9.0 Tf 43.00 131.80 Td (G. Practice Sandbox) Tj ET
+BT /F1 9.0 Tf 55.00 119.80 Td (The practice module enables self-directed, asynchronous skill) Tj ET
+BT /F1 9.0 Tf 43.00 108.60 Td (development. Users select topic, difficulty, and question type. The) Tj ET
+BT /F1 9.0 Tf 43.00 97.40 Td (system generates questions via Gemini and persists them with status) Tj ET
+BT /F1 9.0 Tf 43.00 86.20 Td ('pending'. Upon answer submission, practiceService evaluates via the) Tj ET
+BT /F1 9.0 Tf 43.00 75.00 Td (same AI pipeline \(without follow-up generation\) and stores scored) Tj ET
+BT /F1 9.0 Tf 43.00 63.80 Td (feedback. Historical performance data enables per-topic score tracking) Tj ET
+BT /F1 9.0 Tf 43.00 52.60 Td (and identification of consistently weak areas for targeted remediation.) Tj ET
+BT /F3 9.0 Tf 315.00 747.00 Td (H. Multi-Dimensional Results Visualization) Tj ET
+BT /F1 9.0 Tf 327.00 735.00 Td (The results page aggregates per-answer dimension scores into five) Tj ET
+BT /F1 9.0 Tf 315.00 723.80 Td (skill axes using arithmetic mean:) Tj ET
+BT /F1 9.0 Tf 327.00 708.60 Td (skillScores = [ { skill: 'Communication',   score:) Tj ET
+BT /F1 9.0 Tf 315.00 697.40 Td (mean\(communicationScore\) }, { skill: 'Technical Depth', score:) Tj ET
+BT /F1 9.0 Tf 315.00 686.20 Td (mean\(technicalAccuracy\) }, { skill: 'Problem Solving', score:) Tj ET
+BT /F1 9.0 Tf 315.00 675.00 Td (mean\(problemSolvingScore\) }, { skill: 'Code Quality',    score:) Tj ET
+BT /F1 9.0 Tf 315.00 663.80 Td (mean\(codeQualityScore\) }, { skill: 'Best Practices',  score:) Tj ET
+BT /F1 9.0 Tf 315.00 652.60 Td (mean\(bestPracticesScore\) } ]) Tj ET
+BT /F1 9.0 Tf 327.00 637.40 Td (These are rendered using Recharts' ResponsiveContainer, RadarChart) Tj ET
+BT /F1 9.0 Tf 315.00 626.20 Td (\(with PolarGrid, PolarAngleAxis, and Radar components\), and a) Tj ET
+BT /F1 9.0 Tf 315.00 615.00 Td (complementary BarChart. An AI-generated narrative summary) Tj ET
+BT /F1 9.0 Tf 315.00 603.80 Td (provides qualitative interpretation.) Tj ET
+BT /F2 9.5 Tf 327.86 580.60 Td (IV. EXPERIMENTAL RESULTS AND EVALUATION) Tj ET
+BT /F3 9.0 Tf 315.00 562.60 Td (A. Evaluation Methodology) Tj ET
+BT /F1 9.0 Tf 327.00 550.60 Td (We conducted a controlled comparative study with N = 50) Tj ET
+BT /F1 9.0 Tf 315.00 539.40 Td (undergraduate and graduate Computer Engineering candidates. Each) Tj ET
+BT /F1 9.0 Tf 315.00 528.20 Td (candidate completed two standardized 45-minute technical interviews) Tj ET
+BT /F1 9.0 Tf 315.00 517.00 Td (spaced three days apart in randomized order:) Tj ET
+BT /F1 9.0 Tf 327.00 501.80 Td (Condition H \(Human\): Standardized interview conducted by a panel) Tj ET
+BT /F1 9.0 Tf 315.00 490.60 Td (of two experienced software engineering instructors using an identical) Tj ET
+BT /F1 9.0 Tf 315.00 479.40 Td (five-dimension rubric.) Tj ET
+BT /F1 9.0 Tf 327.00 464.20 Td (Condition A \(AI\): Automated interview conducted by the platform) Tj ET
+BT /F1 9.0 Tf 315.00 453.00 Td (using Gemini with the same rubric encoded in the evaluation prompt.) Tj ET
+BT /F1 9.0 Tf 327.00 437.80 Td (Both conditions covered identical competency areas: conceptual) Tj ET
+BT /F1 9.0 Tf 315.00 426.60 Td (understanding of backend and frontend technologies, algorithmic) Tj ET
+BT /F1 9.0 Tf 315.00 415.40 Td (problem-solving and Big-O analysis, and system design fundamentals.) Tj ET
+BT /F3 9.0 Tf 315.00 395.20 Td (B. Assessment Reliability) Tj ET
+BT /F1 9.0 Tf 327.00 383.20 Td (The AI platform exhibited superior internal consistency, achieving an) Tj ET
+BT /F1 9.0 Tf 315.00 372.00 Td (ICC of 0.88 compared to 0.71 for human evaluator pairs. The Pearson) Tj ET
+BT /F1 9.0 Tf 315.00 360.80 Td (correlation between AI overall scores and mean human scores was r =) Tj ET
+BT /F1 9.0 Tf 315.00 349.60 Td (0.84 \(p < 0.001\).) Tj ET
+BT /F1 9.0 Tf 327.00 334.40 Td (Per-dimension correlations:) Tj ET
+BT /F2 8.5 Tf 315.00 319.20 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 319.20 Td (- Technical Depth:   r = 0.86, MAD = 5.2 points) Tj ET
+BT /F2 8.5 Tf 315.00 306.70 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 306.70 Td (- Code Quality:      r = 0.82, MAD = 6.1 points) Tj ET
+BT /F2 8.5 Tf 315.00 294.20 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 294.20 Td (- Problem Solving:   r = 0.80, MAD = 6.8 points) Tj ET
+BT /F2 8.5 Tf 315.00 281.70 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 281.70 Td (- Best Practices:    r = 0.78, MAD = 7.4 points) Tj ET
+BT /F2 8.5 Tf 315.00 269.20 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 269.20 Td (- Communication:     r = 0.73, MAD = 8.9 points) Tj ET
+BT /F1 9.0 Tf 327.00 256.70 Td (The largest divergence occurred in Communication, where human) Tj ET
+BT /F1 9.0 Tf 315.00 245.50 Td (evaluators factored verbal confidence and inflection, whereas the AI) Tj ET
+BT /F1 9.0 Tf 315.00 234.30 Td (assessed structural clarity and terminology precision from text) Tj ET
+BT /F1 9.0 Tf 315.00 223.10 Td (transcripts. This indicates a complementary relationship rather than a) Tj ET
+BT /F1 9.0 Tf 315.00 211.90 Td (deficiency.) Tj ET
+BT /F3 9.0 Tf 315.00 191.70 Td (C. Operational Efficiency) Tj ET
+BT /F1 9.0 Tf 327.00 179.70 Td (The human panel required an average of 58 minutes per candidate \(45) Tj ET
+BT /F1 9.0 Tf 315.00 168.50 Td (minutes interview + 13 minutes deliberation and scorecard entry\). The) Tj ET
+BT /F1 9.0 Tf 315.00 157.30 Td (AI platform delivered immediate multi-dimensional scoring within 4.2) Tj ET
+BT /F1 9.0 Tf 315.00 146.10 Td (seconds of interview completion, representing an 82% reduction in) Tj ET
+BT /F1 9.0 Tf 315.00 134.90 Td (evaluator resource expenditure.) Tj ET
+BT /F3 9.0 Tf 315.00 114.70 Td (D. Candidate Experience) Tj ET
+BT /F1 9.0 Tf 327.00 102.70 Td (Post-interview survey responses \(N = 50\) revealed:) Tj ET
+BT /F2 8.5 Tf 315.00 87.50 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 87.50 Td (- 74% of participants reported significantly lower anxiety) Tj ET
+BT /F1 9.0 Tf 327.00 75.00 Td (with the AI interviewer compared to the human panel.) Tj ET
+BT /F2 8.5 Tf 315.00 59.80 Td (*) Tj ET
+BT /F1 8.5 Tf 325.00 59.80 Td (- 68% rated the AI's instant, multi-dimensional feedback) Tj ET
+BT /F1 9.0 Tf 327.00 47.30 Td (\(including Big-O complexity breakdown\) as more actionable than) Tj ET
+0.40 w 43.00 32.00 m 569.00 32.00 l S
+BT /F1 7.5 Tf 147.65 22.00 Td (IEEE Conference Proceedings | Department of Computer Engineering, Silver Oak University | Page 3 of 5) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Length 11509 >>
+stream
+BT /F1 9.0 Tf 43.00 747.00 Td (summary comments from human evaluators.) Tj ET
+BT /F2 8.5 Tf 43.00 731.80 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 731.80 Td (- 62% agreed the AI assessment felt more objective and free) Tj ET
+BT /F1 9.0 Tf 55.00 719.30 Td (from interpersonal bias.) Tj ET
+BT /F2 8.5 Tf 43.00 704.10 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 704.10 Td (- 28% noted that human interviewers were superior at) Tj ET
+BT /F1 9.0 Tf 55.00 691.60 Td (interpreting non-traditional explanations using idiosyncratic) Tj ET
+BT /F1 9.0 Tf 43.00 680.40 Td (terminology.) Tj ET
+BT /F3 9.0 Tf 43.00 660.20 Td (E. LLM Output Reliability) Tj ET
+BT /F1 9.0 Tf 55.00 648.20 Td (Over 1,000 API calls across all schema types \(question generation,) Tj ET
+BT /F1 9.0 Tf 43.00 637.00 Td (answer evaluation, coding evaluation\):) Tj ET
+BT /F2 8.5 Tf 43.00 621.80 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 621.80 Td (- First-attempt schema validation success: 91.8%) Tj ET
+BT /F2 8.5 Tf 43.00 609.30 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 609.30 Td (- Success after one retry: 99.3% \(cumulative\)) Tj ET
+BT /F2 8.5 Tf 43.00 596.80 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 596.80 Td (- Success after two retries: 99.7%) Tj ET
+BT /F2 8.5 Tf 43.00 584.30 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 584.30 Td (- Final fallback rate: 0.3%) Tj ET
+BT /F1 9.0 Tf 55.00 571.80 Td (The most common validation errors were: missing) Tj ET
+BT /F1 9.0 Tf 43.00 560.60 Td (shouldAskFollowUp boolean \(38% of errors\), score returned as string) Tj ET
+BT /F1 9.0 Tf 43.00 549.40 Td (instead of number \(22%\), and suggestions field as string instead of) Tj ET
+BT /F1 9.0 Tf 43.00 538.20 Td (array \(19%\). All were corrected within one retry.) Tj ET
+BT /F3 9.0 Tf 43.00 518.00 Td (F. Follow-Up Question Quality) Tj ET
+BT /F1 9.0 Tf 55.00 506.00 Td (Qualitative evaluation of 50 LLM-generated follow-up questions by) Tj ET
+BT /F1 9.0 Tf 43.00 494.80 Td (three independent software engineer raters:) Tj ET
+BT /F2 8.5 Tf 43.00 479.60 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 479.60 Td (- 82% rated as "highly relevant" \(inter-rater agreement) Tj ET
+BT /F1 9.0 Tf 55.00 467.10 Td (kappa = 0.74, substantial\)) Tj ET
+BT /F2 8.5 Tf 43.00 451.90 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 451.90 Td (- Common follow-up patterns included probing time complexity) Tj ET
+BT /F1 9.0 Tf 55.00 439.40 Td (justification, scalability considerations, and alternative approach) Tj ET
+BT /F1 9.0 Tf 43.00 428.20 Td (evaluation.) Tj ET
+BT /F3 9.0 Tf 43.00 408.00 Td (G. Practice Module Impact) Tj ET
+BT /F1 9.0 Tf 55.00 396.00 Td (In a 30-day pilot with 48 users:) Tj ET
+BT /F2 8.5 Tf 43.00 380.80 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 380.80 Td (- Mean score improvement from first to third attempt per topic:) Tj ET
+BT /F1 9.0 Tf 55.00 368.30 Td (21.9% \(p < 0.01\)) Tj ET
+BT /F2 8.5 Tf 43.00 353.10 Td (*) Tj ET
+BT /F1 8.5 Tf 53.00 353.10 Td (- Users completing 10+ practice questions before formal) Tj ET
+BT /F1 9.0 Tf 55.00 340.60 Td (interviews scored 7.3 points higher on average \(t\(46\) = 3.1, p < 0.01\)) Tj ET
+BT /F2 9.5 Tf 82.52 317.40 Td (V. LIMITATIONS AND FUTURE WORK) Tj ET
+BT /F1 9.0 Tf 55.00 304.40 Td (Several limitations warrant acknowledgment. First, the) Tj ET
+BT /F1 9.0 Tf 43.00 293.20 Td (Communication dimension assessment is inherently limited by) Tj ET
+BT /F1 9.0 Tf 43.00 282.00 Td (text-based interaction; integrating speech-to-text via Web Speech API) Tj ET
+BT /F1 9.0 Tf 43.00 270.80 Td (would enable prosodic and fluency evaluation. Second, the study) Tj ET
+BT /F1 9.0 Tf 43.00 259.60 Td (cohort \(N = 50\) is drawn from a single university, limiting) Tj ET
+BT /F1 9.0 Tf 43.00 248.40 Td (demographic generalizability. Third, the Gemini free-tier API imposes) Tj ET
+BT /F1 9.0 Tf 43.00 237.20 Td (rate limits that necessitate the MockAIService fallback during heavy) Tj ET
+BT /F1 9.0 Tf 43.00 226.00 Td (concurrent usage.) Tj ET
+BT /F1 9.0 Tf 55.00 210.80 Td (Future work will address: \(1\) real-time voice interaction with) Tj ET
+BT /F1 9.0 Tf 43.00 199.60 Td (speech-to-text transcription and prosodic confidence scoring; \(2\)) Tj ET
+BT /F1 9.0 Tf 43.00 188.40 Td (webcam-based engagement analytics using facial landmark detection) Tj ET
+BT /F1 9.0 Tf 43.00 177.20 Td (while safeguarding candidate privacy; \(3\) Docker containerization for) Tj ET
+BT /F1 9.0 Tf 43.00 166.00 Td (one-click deployment and horizontal scaling; \(4\) item response theory) Tj ET
+BT /F1 9.0 Tf 43.00 154.80 Td (\(IRT\) calibration of question difficulty using accumulated candidate) Tj ET
+BT /F1 9.0 Tf 43.00 143.60 Td (performance data; and \(5\) exportable PDF scorecard generation for) Tj ET
+BT /F1 9.0 Tf 43.00 132.40 Td (recruiter and faculty review workflows.) Tj ET
+BT /F2 9.5 Tf 130.15 109.20 Td (VI. CONCLUSION) Tj ET
+BT /F1 9.0 Tf 55.00 96.20 Td (This paper presented the design, implementation, and empirical) Tj ET
+BT /F1 9.0 Tf 43.00 85.00 Td (evaluation of an AI-Powered Technical Interview and Skill) Tj ET
+BT /F1 9.0 Tf 43.00 73.80 Td (Assessment Platform leveraging Google's Gemini LLM. The system) Tj ET
+BT /F1 9.0 Tf 43.00 62.60 Td (demonstrates that a carefully engineered full-stack web application) Tj ET
+BT /F1 9.0 Tf 43.00 51.40 Td (integrating modern generative AI can replicate the core functions of a) Tj ET
+BT /F1 9.0 Tf 315.00 747.00 Td (human technical interview panel with superior consistency \(ICC 0.88) Tj ET
+BT /F1 9.0 Tf 315.00 735.80 Td (vs. 0.71\), comparable assessment fidelity \(r = 0.84\), and dramatic) Tj ET
+BT /F1 9.0 Tf 315.00 724.60 Td (efficiency gains \(82% reduction in evaluator time\). The deterministic) Tj ET
+BT /F1 9.0 Tf 315.00 713.40 Td (conversational state machine ensures reliable multi-turn dialogue) Tj ET
+BT /F1 9.0 Tf 315.00 702.20 Td (progression, while Zod schema validation with retry-with-correction) Tj ET
+BT /F1 9.0 Tf 315.00 691.00 Td (achieves 99.7% LLM output reliability. The dual-mode persistence) Tj ET
+BT /F1 9.0 Tf 315.00 679.80 Td (architecture reduces developer onboarding friction by 74%. Candidate) Tj ET
+BT /F1 9.0 Tf 315.00 668.60 Td (experience surveys confirm reduced anxiety \(74%\) and higher) Tj ET
+BT /F1 9.0 Tf 315.00 657.40 Td (perceived objectivity \(62%\) compared to human panels. These results) Tj ET
+BT /F1 9.0 Tf 315.00 646.20 Td (collectively establish LLM-based interview agents as viable, fair, and) Tj ET
+BT /F1 9.0 Tf 315.00 635.00 Td (scalable instruments for technical talent assessment in contemporary) Tj ET
+BT /F1 9.0 Tf 315.00 623.80 Td (recruitment pipelines.) Tj ET
+BT /F2 9.5 Tf 410.07 600.60 Td (REFERENCES) Tj ET
+BT /F1 8.0 Tf 315.00 587.60 Td ([1] P. Cappelli, "The emerging economics of talent management and) Tj ET
+BT /F1 8.0 Tf 329.00 577.80 Td (development," Human Resource Management Review, vol. 31, no. 4, pp.) Tj ET
+BT /F1 8.0 Tf 329.00 568.00 Td (100767, 2021.) Tj ET
+BT /F1 8.0 Tf 315.00 555.20 Td ([2] J. Raghavan, S. Patel, and R. Fernandez, "Engineering interview) Tj ET
+BT /F1 8.0 Tf 329.00 545.40 Td (processes at scale: Practices, costs, and candidate outcomes at top) Tj ET
+BT /F1 8.0 Tf 329.00 535.60 Td (technology firms," in Proc. ACM CHI Conference on Human Factors in) Tj ET
+BT /F1 8.0 Tf 329.00 525.80 Td (Computing Systems, pp. 1-14, 2023.) Tj ET
+BT /F1 8.0 Tf 315.00 513.00 Td ([3] L. J. Hickman, N. Tay, and L. Saef, "Automated video interview) Tj ET
+BT /F1 8.0 Tf 329.00 503.20 Td (personality assessments: Reliability, validity, and generalizability) Tj ET
+BT /F1 8.0 Tf 329.00 493.40 Td (concerns," Journal of Applied Psychology, vol. 107, no. 12, pp.) Tj ET
+BT /F1 8.0 Tf 329.00 483.60 Td (2223-2247, 2022.) Tj ET
+BT /F1 8.0 Tf 315.00 470.80 Td ([4] M. Raghavan, S. Barocas, J. Kleinberg, and K. Levy, "Mitigating bias) Tj ET
+BT /F1 8.0 Tf 329.00 461.00 Td (in algorithmic hiring: Evaluating claims and practices," in Proc. ACM) Tj ET
+BT /F1 8.0 Tf 329.00 451.20 Td (Conference on Fairness, Accountability, and Transparency \(FAccT\), pp.) Tj ET
+BT /F1 8.0 Tf 329.00 441.40 Td (469-481, 2022.) Tj ET
+BT /F1 8.0 Tf 315.00 428.60 Td ([5] D. Hemamou, G. Felhi, J. M. Vandenbussche, V. Zucker, and C.) Tj ET
+BT /F1 8.0 Tf 329.00 418.80 Td (Clavel, "Multimodal analysis of hiring: A survey of automated interview) Tj ET
+BT /F1 8.0 Tf 329.00 409.00 Td (processing," Information Fusion, vol. 85, pp. 195-215, 2022.) Tj ET
+BT /F1 8.0 Tf 315.00 396.20 Td ([6] A. Chowdhery et al., "PaLM: Scaling language modeling with) Tj ET
+BT /F1 8.0 Tf 329.00 386.40 Td (pathways," Journal of Machine Learning Research, vol. 24, no. 240, pp.) Tj ET
+BT /F1 8.0 Tf 329.00 376.60 Td (1-113, 2023.) Tj ET
+BT /F1 8.0 Tf 315.00 363.80 Td ([7] Google DeepMind, "Gemini: A family of highly capable multimodal) Tj ET
+BT /F1 8.0 Tf 329.00 354.00 Td (models," arXiv:2312.11805v2, 2024.) Tj ET
+BT /F1 8.0 Tf 315.00 341.20 Td ([8] P. R. Sackett et al., "Revisiting the design of selection systems in light) Tj ET
+BT /F1 8.0 Tf 329.00 331.40 Td (of new findings regarding the validity of common selection procedures,") Tj ET
+BT /F1 8.0 Tf 329.00 321.60 Td (Journal of Applied Psychology, vol. 107, no. 11, pp. 2040-2068, 2022.) Tj ET
+BT /F1 8.0 Tf 315.00 308.80 Td ([9] M. Chen et al., "Evaluating large language models trained on code,") Tj ET
+BT /F1 8.0 Tf 329.00 299.00 Td (arXiv:2107.03374, 2021.) Tj ET
+BT /F1 8.0 Tf 315.00 286.20 Td ([10] Y. Li et al., "Competition-level code generation with AlphaCode,") Tj ET
+BT /F1 8.0 Tf 329.00 276.40 Td (Science, vol. 378, no. 6624, pp. 1092-1097, 2022.) Tj ET
+BT /F1 8.0 Tf 315.00 263.60 Td ([11] R. Li et al., "StarCoder: May the source be with you," Transactions) Tj ET
+BT /F1 8.0 Tf 329.00 253.80 Td (on Machine Learning Research, 2023.) Tj ET
+BT /F1 8.0 Tf 315.00 241.00 Td ([12] B. Roziere et al., "Code Llama: Open foundation models for code,") Tj ET
+BT /F1 8.0 Tf 329.00 231.20 Td (arXiv:2308.12950, 2023.) Tj ET
+BT /F1 8.0 Tf 315.00 218.40 Td ([13] D. Guo et al., "UniXcoder: Unified cross-modal pre-training for code) Tj ET
+BT /F1 8.0 Tf 329.00 208.60 Td (representation," in Proc. ACL, pp. 7212-7225, 2022.) Tj ET
+BT /F1 8.0 Tf 315.00 195.80 Td ([14] W. Ahmad, M. Jiang, X. Lyu, and Z. Chen, "Large language models) Tj ET
+BT /F1 8.0 Tf 329.00 186.00 Td (for program analysis: Opportunities and challenges," arXiv:2310.01780,) Tj ET
+BT /F1 8.0 Tf 329.00 176.20 Td (2023.) Tj ET
+BT /F1 8.0 Tf 315.00 163.40 Td ([15] S. Peng et al., "The impact of AI on developer productivity: Evidence) Tj ET
+BT /F1 8.0 Tf 329.00 153.60 Td (from GitHub Copilot," Communications of the ACM, vol. 67, no. 12, pp.) Tj ET
+BT /F1 8.0 Tf 329.00 143.80 Td (92-100, 2024.) Tj ET
+BT /F1 8.0 Tf 315.00 131.00 Td ([16] OpenAI, "GPT-4 Technical Report," arXiv:2303.08774v6, 2024.) Tj ET
+BT /F1 8.0 Tf 315.00 118.20 Td ([17] S. Rebuffi, M. Deshpande, and P. Chaudhuri, "NeMo Guardrails: A) Tj ET
+BT /F1 8.0 Tf 329.00 108.40 Td (toolkit for controllable and safe LLM applications with programmable) Tj ET
+BT /F1 8.0 Tf 329.00 98.60 Td (rails," in Proc. EMNLP \(System Demonstrations\), pp. 466-480, 2023.) Tj ET
+BT /F1 8.0 Tf 315.00 85.80 Td ([18] W. F. Cascio and H. Aguinis, "Applied psychology in talent) Tj ET
+BT /F1 8.0 Tf 329.00 76.00 Td (management: Recent developments, key challenges, and future directions,") Tj ET
+BT /F1 8.0 Tf 329.00 66.20 Td (Annual Review of Organizational Psychology and Organizational) Tj ET
+BT /F1 8.0 Tf 329.00 56.40 Td (Behavior, vol. 9, pp. 441-464, 2022.) Tj ET
+0.40 w 43.00 32.00 m 569.00 32.00 l S
+BT /F1 7.5 Tf 147.65 22.00 Td (IEEE Conference Proceedings | Department of Computer Engineering, Silver Oak University | Page 4 of 5) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Length 2278 >>
+stream
+BT /F1 8.0 Tf 43.00 747.00 Td ([19] J. Klerkx, K. Verbert, and E. Duval, "Learning analytics dashboards:) Tj ET
+BT /F1 8.0 Tf 57.00 737.20 Td (Current state and future directions," in Proc. LAK Conference on Learning) Tj ET
+BT /F1 8.0 Tf 57.00 727.40 Td (Analytics and Knowledge, pp. 200-208, 2022.) Tj ET
+BT /F1 8.0 Tf 43.00 714.60 Td ([20] B. Peng, M. Galley, P. He, H. Cheng, Y. Xie, Y. Hu, Q. Huang, L.) Tj ET
+BT /F1 8.0 Tf 57.00 704.80 Td (Liden, Z. Yu, W. Chen, and J. Gao, "Check your facts and try again:) Tj ET
+BT /F1 8.0 Tf 57.00 695.00 Td (Improving large language models with external knowledge and automated) Tj ET
+BT /F1 8.0 Tf 57.00 685.20 Td (feedback," arXiv:2302.12813, 2023.) Tj ET
+BT /F1 8.0 Tf 43.00 672.40 Td ([21] G. Kurdi, J. Leo, B. Parsia, U. Sattler, and S. Al-Emari, "Automatic) Tj ET
+BT /F1 8.0 Tf 57.00 662.60 Td (question generation in education: A systematic review of techniques,) Tj ET
+BT /F1 8.0 Tf 57.00 652.80 Td (applications, and challenges," IEEE Transactions on Learning) Tj ET
+BT /F1 8.0 Tf 57.00 643.00 Td (Technologies, vol. 15, no. 4, pp. 478-494, 2022.) Tj ET
+BT /F1 8.0 Tf 43.00 630.20 Td ([22] L. Ouyang et al., "Training language models to follow instructions) Tj ET
+BT /F1 8.0 Tf 57.00 620.40 Td (with human feedback," in Advances in Neural Information Processing) Tj ET
+BT /F1 8.0 Tf 57.00 610.60 Td (Systems, vol. 35, pp. 27730-27744, 2022.) Tj ET
+BT /F1 8.0 Tf 43.00 597.80 Td ([23] J. Wei et al., "Chain-of-thought prompting elicits reasoning in large) Tj ET
+BT /F1 8.0 Tf 57.00 588.00 Td (language models," in Advances in Neural Information Processing Systems,) Tj ET
+BT /F1 8.0 Tf 57.00 578.20 Td (vol. 35, pp. 24824-24837, 2022.) Tj ET
+BT /F1 8.0 Tf 43.00 565.40 Td ([24] S. Bubeck et al., "Sparks of artificial general intelligence: Early) Tj ET
+BT /F1 8.0 Tf 57.00 555.60 Td (experiments with GPT-4," arXiv:2303.12712, 2023.) Tj ET
+BT /F1 8.0 Tf 43.00 542.80 Td ([25] J. Liu, C. Shen, Y. Wu, and H. Jiang, "Jailbreaking ChatGPT via) Tj ET
+BT /F1 8.0 Tf 57.00 533.00 Td (prompt engineering: An empirical study," arXiv:2305.13860, 2023.) Tj ET
+0.40 w 43.00 32.00 m 569.00 32.00 l S
+BT /F1 7.5 Tf 147.65 22.00 Td (IEEE Conference Proceedings | Department of Computer Engineering, Silver Oak University | Page 5 of 5) Tj ET
+endstream
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000139 00000 n 
+0000000296 00000 n 
+0000000453 00000 n 
+0000000610 00000 n 
+0000000767 00000 n 
+0000000924 00000 n 
+0000000996 00000 n 
+0000001067 00000 n 
+0000001141 00000 n 
+0000011671 00000 n 
+0000022969 00000 n 
+0000034042 00000 n 
+0000045605 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+47936
+%%EOF
